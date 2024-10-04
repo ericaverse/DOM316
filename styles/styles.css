@@ -1,1 +1,82 @@
 /*The Document Object Model -- SBA 316 -- ericaverse*/
+/*whole page*/
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto 2%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #fafafa;
+}
+
+body a {
+  text-decoration: none;
+  color: #fe93b9;
+}
+
+body a:hover {
+  color: #fafafa;
+  background: #fe93b9;
+}
+
+/*nav bar*/
+
+#nav {
+  margin: 2% 5%;
+}
+
+#nav a {
+  padding: 2.8% 2.5% 1%;
+  border-radius: 20% 20% 0% 0%;
+  border: 0.16em;
+}
+
+#nav a:hover {
+  padding: 2.8% 2.5% 1%;
+  border-radius: 20% 20% 0% 0%;
+  border: 0.16em solid #ffffff;
+  opacity: 50%;
+}
+
+/*main*/
+#main {
+  margin: 2%;
+  padding: 10%;
+}
+#icon {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto 20%;
+  padding: 5%;
+}
+
+#bio, #contact {
+  margin: auto 5vw;
+}
+
+#bio-text {
+  text-align: justify;
+}
+#contributor {
+  font-size: 1.3rem;
+}
+
+.line-across {
+  margin: 1vw;
+  border: solid 0.04em;
+  position: sticky;
+  left:0;
+  right: 0;
+}
+footer {
+  background-color: grey;
+  margin: 1vw;
+  height: 10em;
+  position: relative;
+  bottom: 0;
+  
+
+}
+s 
